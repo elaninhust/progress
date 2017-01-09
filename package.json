@@ -1,0 +1,17 @@
+{
+  "name": "pregress",
+  "version": "1.0.0",
+  "description": "node/stmp实时显示进度和速度",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "'ivan'",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.17.3",
+    "socket.io": "^1.7.2",
+    "stomp-client": "^0.8.1"
+  }
+}
