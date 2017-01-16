@@ -10,5 +10,3 @@ app.use('/',express.static(__dirname+'/static'));
 server.listen(config.app.port,function(){
 	console.log('server starts at localhost:'+config.app.port);
 })
-
-

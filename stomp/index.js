@@ -14,6 +14,7 @@ client.connect(function(session){
 	console.log(session);
 	client.subscribe(config.mqConfig.opts.destination,function(body,header){
 		progressInfo=JSON.parse(body);
+		console.log(progressInfo);
 
 		let taskUuid=progressInfo.taskUuid;
 		let refUuid=progressInfo.refUuid;

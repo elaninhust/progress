@@ -1,6 +1,6 @@
 //开发环境
 let config = {
-  app: {
+  app: {    //server配置
     url:'localhost',
     port: 2016
   },
