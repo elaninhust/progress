@@ -17,4 +17,5 @@
 ## 环境搭建
 
 1. 安装node
-2. 命令行进入到progress文件夹，执行`npm index.js`命令
+2. 命令行进入到progress文件夹，执行`npm install`安装相关依赖
+3. 命令行进入到progress文件夹，执行`npm index.js`命令
